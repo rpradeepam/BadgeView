@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="BadgeView">
+        <attr name="bgColor" format="color" />
+        <attr name="buttonIcon" format="reference" />
+        <attr name="badgeValue" format="string" />
+        <attr name="badgeColor" format="color" />
+        <attr name="badgePosition" format="enum">
+            <enum name="TopRight" value="0" />
+            <enum name="BottomCenter" value="1" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="BadgeViewTheme">
+        <attr name="badgeViewStyle" format="reference" />
+    </declare-styleable>
+
+</resources>
